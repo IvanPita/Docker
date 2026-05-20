@@ -1,0 +1,142 @@
+version: '3.8'
+
+services:
+  app01:
+    image: app_basica:v3
+    container_name: juego_01
+    ports:
+      - "8001:80"
+    restart: unless-stopped
+
+  app02:
+    image: app_basica:v3
+    container_name: juego_02
+    ports:
+      - "8002:80"
+    restart: unless-stopped
+
+  app03:
+    image: app_basica:v3
+    container_name: juego_03
+    ports:
+      - "8003:80"
+    restart: unless-stopped
+
+  app04:
+    image: app_basica:v3
+    container_name: juego_04
+    ports:
+      - "8004:80"
+    restart: unless-stopped
+
+  app05:
+    image: app_basica:v3
+    container_name: juego_05
+    ports:
+      - "8005:80"
+    restart: unless-stopped
+
+  app06:
+    image: app_basica:v3
+    container_name: juego_06
+    ports:
+      - "8006:80"
+    restart: unless-stopped
+
+  app07:
+    image: app_basica:v3
+    container_name: juego_07
+    ports:
+      - "8007:80"
+    restart: unless-stopped
+
+  app08:
+    image: app_basica:v3
+    container_name: juego_08
+    ports:
+      - "8008:80"
+    restart: unless-stopped
+
+  app09:
+    image: app_basica:v3
+    container_name: juego_09
+    ports:
+      - "8009:80"
+    restart: unless-stopped
+
+  app10:
+    image: app_basica:v3
+    container_name: juego_10
+    ports:
+      - "8010:80"
+    restart: unless-stopped
+
+  app11:
+    image: app_basica:v3
+    container_name: juego_11
+    ports:
+      - "8011:80"
+    restart: unless-stopped
+
+  app12:
+    image: app_basica:v3
+    container_name: juego_12
+    ports:
+      - "8012:80"
+    restart: unless-stopped
+
+  app13:
+    image: app_basica:v3
+    container_name: juego_13
+    ports:
+      - "8013:80"
+    restart: unless-stopped
+
+  app14:
+    image: app_basica:v3
+    container_name: juego_14
+    ports:
+      - "8014:80"
+    restart: unless-stopped
+
+  app15:
+    image: app_basica:v3
+    container_name: juego_15
+    ports:
+      - "8015:80"
+    restart: unless-stopped
+
+  app16:
+    image: app_basica:v3
+    container_name: juego_16
+    ports:
+      - "8016:80"
+    restart: unless-stopped
+
+  app17:
+    image: app_basica:v3
+    container_name: juego_17
+    ports:
+      - "8017:80"
+    restart: unless-stopped
+
+  app18:
+    image: app_basica:v3
+    container_name: juego_18
+    ports:
+      - "8018:80"
+    restart: unless-stopped
+
+  app19:
+    image: app_basica:v3
+    container_name: juego_19
+    ports:
+      - "8019:80"
+    restart: unless-stopped
+
+  app20:
+    image: app_basica:v3
+    container_name: juego_20
+    ports:
+      - "8020:80"
+    restart: unless-stopped
