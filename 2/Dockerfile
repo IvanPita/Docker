@@ -1,5 +1,8 @@
 #Partimos de una imagen Ubuntu
-FROM ubuntu:22.04
+FROM ubuntu:20.04
+
+#Linea para que no pregunte al hacer la instalacion
+ENV DEBIAN_FRONTEND=noninteractive
 
 #Actualizamos los repositorios e instalamos Apache, PHP, el módulo que los conecta y Git
 RUN apt-get update && apt-get install -y \
